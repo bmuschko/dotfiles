@@ -3,6 +3,7 @@ alias ~='cd ~'
 alias ..='cd ..'
 alias tu='top -o cpu'   # CPU
 alias tm='top -o vsize' # Memory
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"  # Directory tree
 
 # Gradle
 alias gr='gradle'
